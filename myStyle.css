@@ -1,0 +1,326 @@
+	table {
+
+  		margin-left: auto;
+  		margin-right: auto;
+
+	}
+
+	th {
+
+  		border-bottom: 1px solid #ddd;
+		background-color: #F57F17;
+		text-weight: bold;
+  		border: 1px solid black;
+  		border-collapse: collapse;
+
+	}
+
+	td {
+
+  		border: 1px solid black;
+  		border-collapse: collapse;
+		text-align: center;
+
+	}
+
+	text {
+
+		font-family: "Calibri";
+		color: black;
+
+	}
+
+	.pintext {
+
+		font-family: "Calibri";
+		color: black;
+		font-size: 8px;
+		text-anchor="middle";
+		alignment-baseline="middle";
+
+	}
+
+	path {
+
+		stroke: black;
+		stroke-width: 3px;
+		fill: none;
+
+
+	}
+
+	rect.PWR {
+
+		fill: red;
+		stroke-width: 1.5px;
+		stroke: black;
+
+	}
+
+	.RS422 {
+
+
+		fill: purple;
+		stroke-width: 1.5px;
+		stroke: black;
+
+	}
+
+	.HLD {
+
+		fill: orange;
+		stroke-width: 1.5px;
+		stroke: black;
+
+	}
+
+	.TLMA {
+
+
+		fill: cyan;
+		stroke-width: 1.5px;
+		stroke: black;
+
+	}
+
+	.snakepath1 {
+
+		//stroke: green;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+	.snakepath2 {
+
+		//stroke: purple;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+	.snakepath3 {
+
+		//stroke: blue;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+	.snakepath4 {
+
+		//stroke: salmon;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+	.snakepath5 {
+
+		stroke: red;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+	.arcpathA {
+
+		stroke: grey;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+	.arcpathB{
+
+		stroke: grey;
+		stroke-width: 3px;
+		fill: none;
+
+	}
+
+
+	textPath {
+
+		font-family: "Calibri";
+		fill: blue;
+		font-size: 10px;
+
+	}
+
+	.fpath {
+
+		stroke: black;
+		stroke-width: 0.032in;
+		//marker-end: url(#connector);
+		//marker-start: url(#connector);
+		opacity: 25%;
+
+	}
+
+	.error {
+
+		stroke: red;
+		stroke-width: 3px;
+
+	}
+
+	.warning {
+
+		stroke: orange;
+		stroke-width: 3px;
+
+	}
+
+
+
+	.fpath:hover {
+
+		stroke: magenta;
+		opacity: 100%;
+		stroke-width: 5px;
+		z-index: 1;
+
+	}
+
+	marker {
+
+		//stroke: black;
+		//stroke-width: 1px;
+		fill: blue;
+
+	}
+
+	#connector { 
+
+		stroke: black;
+		stroke-width: 3px;
+		fill: orange;
+
+	}
+
+	,connector:hover { 
+
+		fill: blue;
+
+	}
+
+	.hpath {
+
+		stroke-width: 5px;
+		stroke: black;
+		opacity: 50%;
+		
+	}
+
+	.hpath:hover {
+
+		stroke: orange;
+		
+	}
+
+
+	.harness {
+
+		stroke: black;
+		stroke-width: 3px;
+		fill: cornflowerblue;
+		//opacity: 50%;
+		
+	}
+
+	.harness:hover {
+
+		fill: none;
+		
+	}
+
+	.lru {
+
+		fill: yellowgreen;
+		stroke: black;
+		stroke-width: 3px;
+		
+	}
+
+
+	.lru:hover {
+
+		fill: none;
+		
+	}
+
+	.module {
+
+		stroke: black;
+		stroke-width: 3px;
+		fill: cyan;
+		
+	}
+
+
+	.connector {
+
+		fill: cornflowerblue;
+		stroke: black;
+		stroke-width: 3px;
+		
+	}
+
+	.connector:hover {
+
+		fill: sandybrown;
+		
+	}
+
+	.pin {
+
+		//fill: grey;
+		stroke: black;
+		stroke-width: 1.5px;
+		
+	}
+
+	.pin:hover {
+
+		fill: cyan;
+		
+	}
+
+
+	/* The container <div> - needed to position the dropdown content */
+
+	.dropdown {
+
+  		//position: relative;
+
+  		//display: inline-block;
+
+	}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {fill: #3e8e41;}
